@@ -1,0 +1,163 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4b5;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+    padding-top: 20px;
+}
+
+.sidebar .nav-link {
+    color: #333;
+    font-weight: bold;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #e9ecef;
+}
+
+.sidebar .nav-link.active {
+    background-color: #e9ecef;
+    color: #213e5c;
+}
+
+.nav-item {
+    margin: 5%;
+}
+.h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 15rem;
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 25rem;
+    margin-right: -42px;
+    border-radius: 0.5rem;
+}
+
+.search-bar button {
+    margin-left: 0;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.search-bar button i {
+    font-size: 1.2rem;
+}
+
+.container {
+    margin-left: 220px; /* Sidebar genişliği kadar boşluk bırak */
+}
+
+.content-container {
+    display: none;
+}
+
+.content-container:first-child {
+    display: block;
+}
+
+.about-text, .home-text {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+.menu {
+    margin-top: 20px;
+}
+  
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+.btn-item {
+    margin-left: 15px;
+}
+  
+.photo {
+    width: 30%;
+    height: 175px;
+    object-fit: cover;
+    border: 0.25rem solid black;
+    border-radius: 10px;
+}
+.menu-items {
+    display: flex;
+    margin: 20px 0;
+}
+.menu-info {
+    margin-left: 20px;
+    width: 100%;
+}
+.menu-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+  
+.menu-text {
+    padding-top: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form .form-label {
+    font-weight: bold;
+}
+
+form .form-control {
+    border-radius: 0.25rem;
+}
+
+form button {
+    background-color: #101f22;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #132232;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
